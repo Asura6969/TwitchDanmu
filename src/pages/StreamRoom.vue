@@ -206,6 +206,7 @@ export default {
       
       // "Alca: Hello, World!"
       const Message = emoteParser.replaceEmotes(message, tags, channel, self);
+      console.log(Message);
       if(Message.length < 200){
         loadchat(Message, allocate(), message.length);
       }

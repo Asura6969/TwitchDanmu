@@ -2,7 +2,7 @@
   <div class="container">
     
     <iframe
-    v-bind:src="'https://player.twitch.tv/?channel='+this.$route.params.username+'&parent=streamernews.example.com&muted=true'"  
+    v-bind:src="'https://player.twitch.tv/?channel='+this.$route.params.username+'&parent=https://asura6969.github.io/TwitchDanmu&muted=true'"  
     id = "embed"
     allowfullscreen>
 
